@@ -1,0 +1,17 @@
+[project]
+name = "rules_server"
+version = "0.1.0"
+description = "MCP server for providing CLine extension rules"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.124.0",
+    "mcp[cli]>=1.21.0",
+]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+cline-rules = "rules_server:main"
