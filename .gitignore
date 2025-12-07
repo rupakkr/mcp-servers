@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Dependencies
+uv.lock  # Uncomment if you don't want to commit the lockfile
+
+# OS/Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs/Temp
+*.log
+tmp/
+.temp
+
+# Sensitive
+.env
